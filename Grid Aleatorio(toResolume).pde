@@ -36,7 +36,7 @@ void draw() {
 
       // Dibuja el cuadrado según el estado de la celda en Finestra
       if (Finestra[x][y] != null && Finestra[x][y].equals("Encendida")) {
-        fill(#FFB803);  // Color rojo para la celda encendida
+        fill(#FF8C0A);  // Color rojo para la celda encendida
       } else {
         fill(#f1f1f1);
       }
